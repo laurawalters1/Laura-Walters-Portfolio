@@ -1,0 +1,10 @@
+:root {
+  --peach: #ff8b56;
+  --charcoal: #313131;
+}
+.navbar {
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  background-color: var(--charcoal) !important;
+}

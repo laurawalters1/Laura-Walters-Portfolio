@@ -1,0 +1,21 @@
+:root {
+  --peach: #ff8b56;
+  --charcoal: #1a1a1a;
+  /* --charcoal: #313131; */
+}
+
+.footer {
+  width: 100% !important;
+  padding: 30px !important;
+  background-color: var(--charcoal) !important;
+  position: static;
+  bottom: 0px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-i {
+  font-size: 3rem;
+  margin: 20px;
+}

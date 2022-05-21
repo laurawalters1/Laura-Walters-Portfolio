@@ -61,7 +61,7 @@ function Repositories() {
         </Wrapper>
       </div>
       <Wrapper>
-        <h1>All Repositories</h1>
+        <h1 className="text-white">All Repositories</h1>
         <Splide
           className="d-flex justify-content-center"
           options={{

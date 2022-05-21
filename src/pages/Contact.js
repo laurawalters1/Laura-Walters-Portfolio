@@ -6,7 +6,7 @@ function Contact() {
     <main className="">
       <h1>CONTACT</h1>
       <div className="container d-flex justify-content-center">
-        <form className="card shadow p-5 col-6">
+        <form className="card shadow p-5 col-11 col-lg-6">
           <div class="form-group m-3">
             <label for="exampleInputEmail1">Name</label>
             <input
@@ -18,7 +18,7 @@ function Contact() {
               placeholder="Enter name"
             />
           </div>
-          <div class="form-group m-3">
+          <div class="form-group m-3 mb-5">
             <label for="exampleInputEmail1">Email address</label>
             <input
               required
@@ -43,16 +43,7 @@ function Contact() {
               placeholder="Enter message"
             />
           </div>
-          <div class="form-check m-3">
-            <input
-              type="checkbox"
-              class="form-check-input"
-              id="exampleCheck1"
-            />
-            <label class="form-check-label" for="exampleCheck1">
-              Check me out
-            </label>
-          </div>
+
           <button type="submit" class="btn btn-primary">
             Submit
           </button>

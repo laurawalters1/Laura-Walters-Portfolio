@@ -13,7 +13,7 @@ function Home() {
   
   return (
     <main className="d-flex flex-column align-items-center">
-    <div className="d-flex flex-column flex-lg-row align-items-center align-items-lg-start justify-content-center justify-content-lg-start container">
+    <div className="d-flex flex-column flex-lg-row align-items-center align-items-lg-start justify-content-center justify-content-lg-start m-0 container">
       <div className="">
       </div>
         <div className="col-12 col-lg-4 d-flex justify-content-center justify-content-lg-start">
@@ -42,8 +42,11 @@ function Home() {
               1240: {
                 perPage: 6,
               },
+              800: {
+                perPage: 2
+              },
               640: {
-                perPage: 3,
+                perPage: 1,
               },
             },
             arrows: false,

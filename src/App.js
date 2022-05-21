@@ -21,9 +21,15 @@ function App() {
           {/* <!-- Main --> */}
           <main class="container__main mt-5">
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/repositories" element={<Repositories />} />
+              <Route path="/laura-walters-portfolio" element={<Home />} />
+              <Route
+                path="/laura-walters-portfolio/contact"
+                element={<Contact />}
+              />
+              <Route
+                path="/laura-walters-portfolio/repositories"
+                element={<Repositories />}
+              />
             </Routes>
           </main>
         </div>

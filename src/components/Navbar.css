@@ -1,6 +1,7 @@
 :root {
   --peach: #ff8b56;
-  --charcoal: #313131;
+  --charcoal: #1a1a1a;
+  /* --charcoal: #313131; */
 }
 .navbar {
   position: sticky;

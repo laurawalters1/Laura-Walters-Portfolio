@@ -4,7 +4,7 @@ import './Navbar.css'
 import { OffcanvasData } from './OffcanvasData'
 import '../App.css'
 import Offcanvas from './Offcanvas'
-import pic from '../logo.png'
+import pic from '../logo2.png'
 
 function Navbar() {
   return (

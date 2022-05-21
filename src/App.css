@@ -23,6 +23,10 @@ body {
   margin: 30px;
 }
 
+.peach-text {
+  color: var(--peach);
+}
+
 .custom-orange-btn {
   background-color: white;
   color: var(--charcoal);

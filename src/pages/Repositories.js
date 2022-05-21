@@ -8,53 +8,58 @@ import "@splidejs/splide/dist/css/splide.min.css";
 
 function Repositories() {
   return (
-    <main className="">
-      <Wrapper>
-        <h1>Featured Repositories</h1>
-        <Splide
-          className="d-flex justify-content-center"
-          options={{
-            perPage: 3,
-            breakpoints: {
-              1240: {
-                perPage: 2,
+    <main className="container">
+      <div className="card shadow p-2">
+        <Wrapper>
+          <h1 className="m-4">Featured Repositories</h1>
+          <Splide
+            className="d-flex justify-content-center"
+            options={{
+              perPage: 1,
+              breakpoints: {
+                1240: {
+                  perPage: 1,
+                },
+                640: {
+                  perPage: 1,
+                },
               },
-              640: {
-                perPage: 1,
-              },
-            },
-            arrows: false,
-            pagination: false,
-            drag: "free",
-            gap: "0rem",
-          }}
-        >
-          {RepositoryData.map((repo, index) => {
-            return (
-              <SplideSlide>
-                <Card className="m-3 card">
-                  <Gradient />
-                  <img src={repo.img} alt="" className="w-100 h-100" />
-                  <p className="d-flex flex-column">
-                    <a href={repo.repo}>
-                      <button type="button" class="btn btn-outline-light m-1">
-                        View Repository
-                      </button>
-                    </a>
+              arrows: false,
+              pagination: false,
+              drag: "free",
+              gap: "0rem",
+            }}
+          >
+            {RepositoryData.map((repo, index) => {
+              return (
+                <SplideSlide className="d-flex justify-content-center align-items-center">
+                  <Card className="m-3 card ">
+                    <Gradient />
+                    <img src={repo.img} alt="" className="w-100 h-100" />
+                    <p className="d-flex flex-column">
+                      <a href={repo.repo}>
+                        <button type="button" class="btn btn-outline-light m-1">
+                          View Repository
+                        </button>
+                      </a>
 
-                    <a href={repo.link}>
-                      <button type="button" class="btn btn-outline-light m-1">
-                        View Deployed Application
-                      </button>
-                    </a>
-                  </p>
-                </Card>
-              </SplideSlide>
-            );
-          })}
-        </Splide>
-      </Wrapper>
-
+                      <a href={repo.link}>
+                        <button type="button" class="btn btn-outline-light m-1">
+                          View Deployed Application
+                        </button>
+                      </a>
+                    </p>
+                  </Card>
+                  <div className=" col-4 mx-5 d-none d-lg-flex flex-column">
+                    <h3>{repo.title}</h3>
+                    <p className="text-dark">{repo.description}</p>
+                  </div>
+                </SplideSlide>
+              );
+            })}
+          </Splide>
+        </Wrapper>
+      </div>
       <Wrapper>
         <h1>All Repositories</h1>
         <Splide

@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import pic from "../laurawalters3.jpeg"
+import pic from "../laurawalters4.jpeg"
 
 function Home() {
   return (

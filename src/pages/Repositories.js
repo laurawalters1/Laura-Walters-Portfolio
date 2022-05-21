@@ -2,6 +2,7 @@ import React from "react";
 import "../App.css";
 import styled from "styled-components";
 import { RepositoryData } from "../components/RepositoryData";
+import { AllRepositoryData } from "../components/AllRepositoryData";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 
@@ -9,8 +10,9 @@ function Repositories() {
   return (
     <main className="">
       <Wrapper>
-        <h1>Repositories</h1>
+        <h1>Featured Repositories</h1>
         <Splide
+          className="d-flex justify-content-center"
           options={{
             perPage: 3,
             breakpoints: {
@@ -30,7 +32,41 @@ function Repositories() {
           {RepositoryData.map((repo) => {
             return (
               <SplideSlide>
-                <Card className="">
+                <Card className="m-3">
+                  <Gradient />
+
+                  <img src={repo.img} alt="" className="w-100 h-100" />
+                </Card>
+              </SplideSlide>
+            );
+          })}
+        </Splide>
+      </Wrapper>
+
+      <Wrapper>
+        <h1>All Repositories</h1>
+        <Splide
+          className="d-flex justify-content-center"
+          options={{
+            perPage: 3,
+            breakpoints: {
+              1240: {
+                perPage: 2,
+              },
+              640: {
+                perPage: 1,
+              },
+            },
+            arrows: false,
+            pagination: false,
+            drag: "free",
+            gap: "0rem",
+          }}
+        >
+          {AllRepositoryData.map((repo) => {
+            return (
+              <SplideSlide>
+                <Card className="m-3">
                   <Gradient />
 
                   <img src={repo.img} alt="" className="w-100 h-100" />

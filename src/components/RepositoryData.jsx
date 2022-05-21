@@ -7,17 +7,19 @@ import solotraveller from "../solotraveller.png"
 export const RepositoryData = [
     {
         title: 'Macro Meals',
-        img: macromeals
-        
+        img: macromeals,
+        link: 'https://laurawalters1.github.io/meal-planner-project-1/'
     },
     {
         title: 'Tech Talk',
-        img: techtalk
+        img: techtalk,
+        link: 'https://immense-badlands-05123.herokuapp.com/'
         
     },
     {
         title: 'Solo Traveller',
-        img: solotraveller
+        img: solotraveller,
+        link: 'https://tranquil-garden-06194.herokuapp.com/'
         
     },
 ]

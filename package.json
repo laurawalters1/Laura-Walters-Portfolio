@@ -9,6 +9,7 @@
     "@mui/icons-material": "^5.8.0",
     "@popperjs/core": "^2.11.5",
     "@splidejs/react-splide": "^0.7.5",
+    "@splidejs/splide-extension-auto-scroll": "^0.4.2",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",

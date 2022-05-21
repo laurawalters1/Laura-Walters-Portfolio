@@ -4,6 +4,7 @@ import './Navbar.css'
 import { OffcanvasData } from './OffcanvasData'
 import '../App.css'
 import Offcanvas from './Offcanvas'
+import pic from '../logo.png'
 
 function Navbar() {
   return (
@@ -11,6 +12,7 @@ function Navbar() {
  
     <div className="navbar  p-3">
       <Offcanvas className="d-flex  d-lg-none"/>
+      <img src={pic} className="logo" alt=''/>
         <div className='nav d-none  d-lg-flex'>
     {OffcanvasData.map((item, index)=>{
             return <li key={index} className={item.cName}>
@@ -21,6 +23,7 @@ function Navbar() {
             </li>
           })}
           </div>
+          
     </div>
 
    

@@ -11,8 +11,8 @@ export const OffcanvasData = [
         cName: 'nav-text'
     },
     {
-        title: 'About',
-        path: '/about',
+        title: 'Repositories',
+        path: '/repositories',
         icon: <HomeIcon />,
         cName: 'nav-text'
     },

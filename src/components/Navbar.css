@@ -8,3 +8,13 @@
   width: 100%;
   background-color: var(--charcoal) !important;
 }
+
+.logo {
+  width: 350px;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 250px;
+  }
+}

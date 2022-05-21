@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../App.css";
 import styled from "styled-components";
 import { RepositoryData } from "../components/RepositoryData";
@@ -29,13 +29,25 @@ function Repositories() {
             gap: "0rem",
           }}
         >
-          {RepositoryData.map((repo) => {
+          {RepositoryData.map((repo, index) => {
             return (
               <SplideSlide>
-                <Card className="m-3">
+                <Card className="m-3 card">
                   <Gradient />
-
                   <img src={repo.img} alt="" className="w-100 h-100" />
+                  <p className="d-flex flex-column">
+                    <a href={repo.repo}>
+                      <button type="button" class="btn btn-outline-light m-1">
+                        View Repository
+                      </button>
+                    </a>
+
+                    <a href={repo.link}>
+                      <button type="button" class="btn btn-outline-light m-1">
+                        View Deployed Application
+                      </button>
+                    </a>
+                  </p>
                 </Card>
               </SplideSlide>
             );
@@ -70,6 +82,23 @@ function Repositories() {
                   <Gradient />
 
                   <img src={repo.img} alt="" className="w-100 h-100" />
+                  <p className="d-flex flex-column">
+                    <a href={repo.repo}>
+                      <button type="button" class="btn btn-outline-light m-1">
+                        View Repository
+                      </button>
+                    </a>
+
+                    {repo.link ? (
+                      <a href={repo.link}>
+                        <button type="button" class="btn btn-outline-light m-1">
+                          View Deployed Application
+                        </button>
+                      </a>
+                    ) : (
+                      ""
+                    )}
+                  </p>
                 </Card>
               </SplideSlide>
             );
@@ -114,7 +143,7 @@ const Card = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
-
+   
   }
 `;
 
@@ -123,6 +152,7 @@ const Gradient = styled.div`
   position: absolute;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9));
 `;
+
 export default Repositories;

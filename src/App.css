@@ -1,3 +1,8 @@
+:root {
+  --peach: #ff8b56;
+  --charcoal: #313131;
+}
+
 * {
   margin: 0;
 }
@@ -5,9 +10,27 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: var(--peach) !important;
+  font-family: "Montserrat" !important;
+  font-weight: 300;
+  color: var(--peach) !important;
 }
 
 .tech-i {
   font-size: 3rem !important;
   margin: 30px;
+}
+
+.custom-orange-btn {
+  background-color: white;
+  color: var(--charcoal);
+  border: 1px solid var(--charcoal);
+  border-radius: 4px;
+  padding: 5px;
+  transition: ease 250ms;
+}
+
+.custom-orange-btn:hover {
+  background-color: var(--charcoal);
+  color: white;
 }

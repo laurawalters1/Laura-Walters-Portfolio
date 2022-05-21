@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import pic from "../laurawalters4.jpeg"
+import pdf from "../LauraWalters(1).pdf"
 
 function Home() {
   return (
@@ -22,12 +23,13 @@ function Home() {
 <div className="col-12 col-lg-8 card shadow border-0 p-5 h-100 mt-5 mt-lg-0">
 
 <h3 className="mb-5">My Technologies</h3>
-<div className="col-12 d-flex flex-row jusify-content-center">
+<div className="col-12 ">
 <i class="devicon-javascript-plain colored tech-i "></i>
 
 <i class="devicon-react-original-wordmark  colored tech-i"></i>
 
 <i class="devicon-php-plain colored tech-i"></i>
+
 
 <i class="devicon-laravel-plain-wordmark colored tech-i"></i>
           
@@ -69,6 +71,14 @@ function Home() {
 </div>
 <div className="col-11 col-lg-10 card shadow border-0 p-5 h-100 mt-5">
   <h3>About Me</h3>
+  <div className="d-flex flex-lg-row flex-column justify-content-between">
+  <p className="col-lg-8 col-12">
+  I am currently beginning my career in software development. I am completing a full-stack coding bootcamp with the University of Birmingham, and am also completing a level 3 Software Development Technician apprenticeship with Baltic Apprenticeships. I am a fast learner a strong team player, and am building proficiency in JavaScript, Express, React, PHP and Laravel, additionally I also have experience in using AWS JawsDB and S3 Bucket. My diverse experience in the implementation of different programming languages, has enabled me to build a strong understanding of programming concepts early in my career, and I am keen to build on this understanding and progress my career in future roles.
+  </p>
+  <div className="col-lg-3 col-6">
+    <a href={pdf} download={pdf}><button className="custom-orange-btn px-3"> Download Resume</button></a>
+  </div>
+</div>
 </div>
 
     </main>

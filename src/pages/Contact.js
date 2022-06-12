@@ -4,49 +4,26 @@ import "../App.css";
 function Contact() {
   return (
     <main className="">
-      <h1>CONTACT</h1>
       <div className="container d-flex justify-content-center">
-        <form className="card shadow p-5 col-11 col-lg-6">
-          <div class="form-group m-3">
-            <label for="exampleInputEmail1">Name</label>
-            <input
-              required
-              type="text"
-              class="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-              placeholder="Enter name"
+        <form className="card shadow p-5 col-11 col-lg-6 d-flex flex-row">
+          <a
+            href="https://www.linkedin.com/in/laura-walters-099137215/"
+            className="text-dark text-decoration-none footer-i nav-text w-50"
+          >
+            <i class="devicon-linkedin-plain footer-i w-50"></i>
+          </a>
+          <a
+            href="mailto:lauraewalters1098@gmail.com"
+            className="text-dark text-decoration-none w-25"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg"
+              className="w-50"
             />
-          </div>
-          <div class="form-group m-3 mb-5">
-            <label for="exampleInputEmail1">Email address</label>
-            <input
-              required
-              type="email"
-              class="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-              placeholder="Enter email"
-            />
-            <small id="emailHelp" class="form-text text-muted">
-              We'll never share your email with anyone else.
-            </small>
-          </div>
-          <div class="form-group m-3">
-            <label for="exampleInputEmail1">Message</label>
-            <textarea
-              required
-              type="text"
-              class="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-              placeholder="Enter message"
-            />
-          </div>
-
-          <button type="submit" class="btn btn-primary">
-            Submit
-          </button>
+          </a>
+          <a href="https://github.com/laurawalters1" className="text-dark w-50">
+            <i class="devicon-github-original-wordmark footer-i nav-text w-50"></i>
+          </a>
         </form>
       </div>
     </main>

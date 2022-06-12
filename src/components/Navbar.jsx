@@ -20,8 +20,10 @@ function Navbar() {
                 {item.icon}
                 <span>{item.title}</span>
               </Link>
+           
             </li>
           })}
+            
           </div>
           
     </div>

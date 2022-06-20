@@ -30,6 +30,7 @@ function App() {
                 path="/laura-walters-portfolio/repositories"
                 element={<Repositories />}
               />
+              <Route path="/*" element={<Home />} />
             </Routes>
           </main>
         </div>

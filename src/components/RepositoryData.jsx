@@ -1,10 +1,18 @@
 import React from 'react'
 import techtalk from "../techtalk.png"
 import macromeals from "../macromeals.png"
-import solotraveller from "../solotraveller.png"
+import travelly from "../travelly.png"
 
 
 export const RepositoryData = [
+    {
+        title: 'Travelly',
+        img: travelly,
+        link: 'https://gentle-lowlands-70428.herokuapp.com/',
+        repo: 'https://github.com/laurawalters1/travelly-app',
+        description: 'Travelly is a trip finder application fused together with a social network functionality. We have gamified the travel experience. Travel the world and earn unique badges. Our smart technology will learn your travel goals and display trips that you will love.'
+        
+    },
     {
         title: 'Macro Meals',
         img: macromeals,
@@ -20,13 +28,6 @@ export const RepositoryData = [
 
         description: 'Tech Talk is a blog app, which allows like-minded individuals to connect, and blog about various topics. Users can signup, login, create, edit and delete posts, as well as comment on the posts of other users.'
         
-    },
-    {
-        title: 'Solo Traveller',
-        img: solotraveller,
-        link: 'https://tranquil-garden-06194.herokuapp.com/',
-        repo: 'https://github.com/laurawalters1/solo-traveller',
-        description: 'Solo Traveller is a social media app and advertising platform, allowing gap-year travel companies to advertise trips, and providing their customers with a platform from which they can interact with other travellers before travelling.'
-        
-    },
+    }
+    
 ]

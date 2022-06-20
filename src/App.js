@@ -1,6 +1,11 @@
 import "./App.css";
 import Offcanvas from "./components/Offcanvas";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  HashRouter,
+} from "react-router-dom";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
@@ -10,7 +15,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <HashRouter>
         <div class="">
           <header className="d-lg-none d-flex"></header>
           {/* <!-- Sidebar --> */}
@@ -34,7 +39,7 @@ function App() {
             </Routes>
           </main>
         </div>
-      </Router>
+      </HashRouter>
       <Footer />
     </div>
   );

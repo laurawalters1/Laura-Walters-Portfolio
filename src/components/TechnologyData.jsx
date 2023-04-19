@@ -51,7 +51,15 @@ export const TechnologyData = [
     {
         icon:'devicon-npm-original-wordmark colored tech-i'
     },
-    
+    {
+        icon:'devicon-azure-plain colored tech-i'
+    },
+    {
+        icon:'devicon-dotnetcore-plain colored tech-i'
+    },
+    {
+        icon:'devicon-angularjs-plain colored tech-i'
+    },
 ]
 
 

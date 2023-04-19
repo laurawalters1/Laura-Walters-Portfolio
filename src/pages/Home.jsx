@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import pic from "../laurawalters4.jpeg"
-import pdf from "../LauraWalters(1).pdf"
+import pdf from "../LauraWalters-SoftwareDeveloper (5).pdf"
 import "@splidejs/splide/dist/css/splide.min.css";
 
 import { Splide, SplideSlide } from "@splidejs/react-splide";
@@ -83,7 +83,7 @@ function Home() {
   <h3>About Me</h3>
   <div className="d-flex flex-lg-row flex-column justify-content-between">
   <p className="col-lg-8 col-12 text-dark">
-  I am currently beginning my career in software development. I am completing a full-stack coding bootcamp with the University of Birmingham, and am also completing a level 3 Software Development Technician apprenticeship with Baltic Apprenticeships. I am a fast learner, a strong team player, and am building proficiency in JavaScript, Express, React, PHP and Laravel, additionally I also have experience in using AWS JawsDB and S3 Bucket. My diverse experience in the implementation of different programming languages and technologies, has enabled me to build a strong understanding of programming concepts early in my career, and I am keen to build on this understanding and progress my career in future roles.
+  At an early stage in my software development career, I am keen to seize opportunities to take on new challenges, expose myself to new technologies and expand my skills. I currently work as a graduate software developer at Jumar, and enjoy the collaborative and agile process we use to develop solutions.
   </p>
   <div className="col-lg-3 col-6">
     <a href={pdf} download={pdf}><button className="custom-orange-btn px-3"> Download Resume</button></a>

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/laura-walters-portfolio/static/css/main.ae9b1fd9.css",
+    "main.js": "/laura-walters-portfolio/static/js/main.b2ad667c.js",
+    "static/js/787.f5d9ecd2.chunk.js": "/laura-walters-portfolio/static/js/787.f5d9ecd2.chunk.js",
+    "static/media/travelly.png": "/laura-walters-portfolio/static/media/travelly.e28e7f43b8384fa483eb.png",
+    "static/media/teamprofile.png": "/laura-walters-portfolio/static/media/teamprofile.008231aaf3311af3f521.png",
+    "static/media/weatherdash.png": "/laura-walters-portfolio/static/media/weatherdash.80cdce44bb24d8a74774.png",
+    "static/media/dayplanner.png": "/laura-walters-portfolio/static/media/dayplanner.dfebd28707c4dcb1e23a.png",
+    "static/media/techtalk.png": "/laura-walters-portfolio/static/media/techtalk.950acc418a2f802f1436.png",
+    "static/media/macromeals.png": "/laura-walters-portfolio/static/media/macromeals.aabf2b02e120d0281a9f.png",
+    "static/media/MMT.png": "/laura-walters-portfolio/static/media/MMT.c31a6710c3c2c7836255.png",
+    "static/media/codequiz.png": "/laura-walters-portfolio/static/media/codequiz.41ebc513e0420158b70e.png",
+    "static/media/laurawalters4.jpeg": "/laura-walters-portfolio/static/media/laurawalters4.83b95526205a68f6e7fb.jpeg",
+    "static/media/logo2.png": "/laura-walters-portfolio/static/media/logo2.d2b2a45b7add43c4c848.png",
+    "static/media/LauraWalters-SoftwareDeveloper (5).pdf": "/laura-walters-portfolio/static/media/LauraWalters-SoftwareDeveloper (5).d12339d3af47fb349215.pdf",
+    "index.html": "/laura-walters-portfolio/index.html",
+    "main.ae9b1fd9.css.map": "/laura-walters-portfolio/static/css/main.ae9b1fd9.css.map",
+    "main.b2ad667c.js.map": "/laura-walters-portfolio/static/js/main.b2ad667c.js.map",
+    "787.f5d9ecd2.chunk.js.map": "/laura-walters-portfolio/static/js/787.f5d9ecd2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae9b1fd9.css",
+    "static/js/main.b2ad667c.js"
+  ]
+}
